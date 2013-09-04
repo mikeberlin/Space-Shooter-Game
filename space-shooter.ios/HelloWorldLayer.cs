@@ -13,12 +13,12 @@ namespace spaceshooter.ios
 
 			CCLabelTTF label = new CCLabelTTF ("Hello World!", "MarkerFelt", 64) {
 				Position = CCDirector.SharedDirector.WinSize.Center,
-				Color = new CCColor3B(XNA.Color.AntiqueWhite)
+				Color = new CCColor3B(XNA.Color.WhiteSmoke)
 			};
 
 			this.AddChild (label);
 
-			Color = new CCColor3B (XNA.Color.ForestGreen);
+			Color = new CCColor3B (XNA.Color.Black);
 			Opacity = 255;
 		}
 

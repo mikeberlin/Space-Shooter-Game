@@ -83,17 +83,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
-    <Folder Include="Classes\" />
     <Folder Include="Content\" />
     <Folder Include="Content\Backgrounds\" />
-    <Folder Include="Content\Fonts\" />
     <Folder Include="Content\Particles\" />
     <Folder Include="Content\Sounds\" />
     <Folder Include="Content\Spritesheets\" />
+    <Folder Include="Content\Fonts\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
-    <None Include="Content\Fonts\Arial.fnt" />
     <None Include="Content\Particles\Stars1.plist" />
     <None Include="Content\Particles\Stars2.plist" />
     <None Include="Content\Particles\Stars3.plist" />
@@ -106,6 +104,7 @@
     <None Include="Content\Sounds\shake.caf" />
     <None Include="Content\Spritesheets\Sprites.plist" />
     <None Include="Content\Spritesheets\Sprites.pvr.ccz" />
+    <None Include="Content\Fonts\Arial.fnt" />
     <None Include="Content\Fonts\MarkerFelt-22.xnb" />
   </ItemGroup>
   <ItemGroup>

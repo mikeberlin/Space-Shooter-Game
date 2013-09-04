@@ -11,7 +11,7 @@ namespace spaceshooter.ios
 			: base(game, graphics)
 		{
 			s_pSharedApplication = this;
-			CCDrawManager.InitializeDisplay (game, graphics, DisplayOrientation.Portrait);
+			CCDrawManager.InitializeDisplay (game, graphics, DisplayOrientation.LandscapeRight);
 			graphics.PreferMultiSampling = false;
 		}
 
